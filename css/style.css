@@ -56,13 +56,6 @@ img {
 	opacity: 1;
  }*/
 
-/* FOCUS */
-
-*:focus {
-  outline: 2px dashed var(--orange);
-  outline-offset: 3px;
-}
-
 /* VISUALLY-HIDDEN */
 .visually-hidden {
   position: absolute;
@@ -166,6 +159,7 @@ img {
   only screen and (min-resolution: 192dpi),
   only screen and (min-resolution: 2dppx) {
 }
+
 @media only screen and (max-width: 500px) {
   body {
     padding: 24px;
